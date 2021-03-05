@@ -11,6 +11,6 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@master
       - name: Install Dependencies
-        run: npm install
+        run: npx yarn install
       - name: Start
-        run: npm start
+        run: npx yarn start
